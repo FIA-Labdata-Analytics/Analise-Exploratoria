@@ -1,0 +1,291 @@
+COD_PRODUTO	CATEGORIA_PRODUTO	SECAO_PRODUTO	PRECO_UNITARIO	QTD_UNIDADES_VENDIDAS_MES
+COD_P_233209	Tinta e Pincel	Papelaria	5.9	14
+COD_P_235103	Caneta Especial	Papelaria	5.9	26
+COD_P_178413	Monitor	Informática	799.9	3
+COD_P_316368	Mochila Escolar	Acessórios	139	3
+COD_P_190632	Suporte de Celular	Acessórios	29.9	5
+COD_P_168517	Tinta e Pincel	Papelaria	7.9	6
+COD_P_220491	Papéis e Cartolina	Papelaria	14.9	6
+COD_P_310383	Impressora a Jato	Informática	399.9	7
+COD_P_231329	Cartucho de Tinta	Informática	139.9	12
+COD_P_309533	Grampeador e Perfurador	Papelaria	28.9	2
+COD_P_178929	Caderno 1 Matéria	Papelaria	9.9	8
+COD_P_280958	Notebook	Informática	3299.9	2
+COD_P_143791	Marca Texto	Papelaria	4.9	26
+COD_P_176849	Caderno 1 Matéria	Papelaria	8.9	4
+COD_P_233587	Papéis e Cartolina	Papelaria	5	28
+COD_P_272409	Envelope	Papelaria	1.9	5
+COD_P_318526	Suporte de Celular	Acessórios	24.9	5
+COD_P_320672	Agenda	Papelaria	47.8	10
+COD_P_223322	Teclado Simples	Informática	159.9	9
+COD_P_340509	Grampeador e Perfurador	Papelaria	9.9	12
+COD_P_165206	Pen Drive	Informática	74.9	4
+COD_P_287912	Caneta Simples	Papelaria	1.5	21
+COD_P_307703	Lápis de Cor e Giz	Papelaria	19.9	23
+COD_P_274300	Mochila Escolar	Acessórios	120	8
+COD_P_151271	Caderno 1 Matéria	Papelaria	9.9	8
+COD_P_246220	HD Externo	Informática	229.9	8
+COD_P_257221	Caderno 1 Matéria	Papelaria	6.9	4
+COD_P_320244	Caneta Simples	Papelaria	2	22
+COD_P_149125	Papéis e Cartolina	Papelaria	4.9	14
+COD_P_182111	Mochila Escolar	Acessórios	125	2
+COD_P_248782	Tripé	Acessórios	249.9	1
+COD_P_231063	Teclado Mecânico	Informática	299.9	3
+COD_P_331713	Caderno 10 Matérias	Papelaria	9.9	15
+COD_P_206364	Mochila Escolar	Acessórios	127.9	1
+COD_P_236266	Fone de Ouvido sem Fio	Acessórios	199.9	2
+COD_P_189245	Caixa de Som Bluetooth	Acessórios	89.9	4
+COD_P_330373	Papéis e Cartolina	Papelaria	0.8	7
+COD_P_330543	Caneta Especial	Papelaria	52.9	4
+COD_P_236137	Caderno 1 Matéria	Papelaria	7.9	6
+COD_P_178381	Teclado Simples	Informática	99.9	20
+COD_P_166193	Estilete	Papelaria	12.9	2
+COD_P_255725	Lápis	Papelaria	1.5	19
+COD_P_284239	Envelope	Papelaria	0.6	11
+COD_P_197488	Caneta Especial	Papelaria	14.9	1
+COD_P_326137	Estilete	Papelaria	5.9	4
+COD_P_304471	Caneta Simples	Papelaria	1.9	40
+COD_P_189468	Pasta	Papelaria	5.9	10
+COD_P_293534	Mouse Óptico	Informática	39.9	31
+COD_P_167616	Fone de Ouvido com Fio	Acessórios	109.9	12
+COD_P_242814	Teclado Mecânico	Informática	251.9	5
+COD_P_168386	Tinta e Pincel	Papelaria	34.9	4
+COD_P_132532	Caneta Especial	Papelaria	18.9	8
+COD_P_208497	Caneta Simples	Papelaria	2.9	1
+COD_P_316501	Agenda	Papelaria	65.9	0
+COD_P_263117	Tablet	Informática	2980	6
+COD_P_258443	Cabo USB	Acessórios	23.9	12
+COD_P_144988	Bloco de Anotações	Papelaria	2.5	3
+COD_P_187818	Envelope	Papelaria	1	39
+COD_P_320296	Pen Drive	Informática	35	13
+COD_P_131606	Fone de Ouvido sem Fio	Acessórios	121.9	14
+COD_P_220568	HD Externo	Informática	399.9	2
+COD_P_195671	Envelope	Papelaria	1.5	9
+COD_P_322822	Papéis e Cartolina	Papelaria	5.9	10
+COD_P_226107	Marca Texto	Papelaria	5.9	16
+COD_P_319021	Cola e Fita Adesiva	Papelaria	1.5	14
+COD_P_332956	Suporte de Celular	Acessórios	15	4
+COD_P_344598	Tablet	Informática	2399	4
+COD_P_345883	Bloco de Anotações	Papelaria	2.9	9
+COD_P_183654	Fone de Ouvido sem Fio	Acessórios	99.9	1
+COD_P_324413	Impressora a Jato	Informática	629.9	0
+COD_P_161673	Impressora a Jato	Informática	429.9	2
+COD_P_294925	Mochila Executiva	Acessórios	250	1
+COD_P_342904	Estilete	Papelaria	9.9	4
+COD_P_311245	Régua Rígida	Papelaria	9.5	7
+COD_P_220538	Notebook	Informática	3699.9	1
+COD_P_142758	Suporte de Monitor	Acessórios	95	5
+COD_P_224046	Envelope	Papelaria	0.6	5
+COD_P_190198	Caixa de Som Bluetooth	Acessórios	264.9	1
+COD_P_252156	Caderno 10 Matérias	Papelaria	22.5	7
+COD_P_256704	Bloco de Anotações	Papelaria	14.9	5
+COD_B_000003	Brinde	Papelaria	0.01	132
+COD_P_256852	Papéis e Cartolina	Papelaria	8.5	27
+COD_P_264179	Pasta	Papelaria	31.9	5
+COD_P_223412	Caixa de Som Bluetooth	Acessórios	294.9	1
+COD_P_263230	Cartucho de Tinta	Informática	179.9	8
+COD_P_140747	Papéis e Cartolina	Papelaria	0.5	25
+COD_P_319920	Caneta Simples	Papelaria	2.8	20
+COD_P_344949	Caneta Simples	Papelaria	2.8	2
+COD_P_311788	Marca Texto	Papelaria	8.5	13
+COD_P_340569	Agenda	Papelaria	23.5	5
+COD_P_234684	Monitor	Informática	1049	3
+COD_P_235452	Caneta Especial	Papelaria	69.9	4
+COD_P_192688	Fone de Ouvido com Fio	Acessórios	52.9	17
+COD_P_205606	Webcam	Informática	49.9	19
+COD_P_304309	Estilete	Papelaria	7.9	3
+COD_P_205215	Papéis e Cartolina	Papelaria	9.5	19
+COD_P_137258	Cartucho de Tinta	Informática	69.9	36
+COD_P_254314	Caneta Simples	Papelaria	2	14
+COD_P_211988	Notebook	Informática	4399.9	0
+COD_P_253840	Agenda	Papelaria	26.9	5
+COD_P_318085	Cabo USB	Acessórios	32.9	6
+COD_P_338883	Calculadora Simples	Acessórios	12.9	6
+COD_P_139334	Marcador de Quadro	Papelaria	9.9	13
+COD_P_138188	Lápis de Cor e Giz	Papelaria	8.9	29
+COD_P_256981	Caixa de Som Bluetooth	Acessórios	149.9	8
+COD_P_278490	Caneta Especial	Papelaria	129.9	2
+COD_P_211552	Pen Drive	Informática	82.9	10
+COD_P_320924	Tripé	Acessórios	38.9	4
+COD_P_271513	Bloco de Anotações	Papelaria	18.9	3
+COD_P_129420	Tablet	Informática	1899.9	3
+COD_P_197044	Pasta	Papelaria	19.9	6
+COD_P_337559	Caneta Simples	Papelaria	2.9	19
+COD_P_321815	Calculadora Científica	Acessórios	89.9	0
+COD_P_160937	Marca Texto	Papelaria	7.2	19
+COD_P_305323	Caderno 10 Matérias	Papelaria	11.9	6
+COD_P_187735	Mochila Executiva	Acessórios	279.9	3
+COD_P_275444	Calculadora Simples	Acessórios	17.9	9
+COD_P_311606	Mochila Escolar	Acessórios	179.9	1
+COD_P_233916	Teclado Simples	Informática	89.9	12
+COD_P_180241	Pasta	Papelaria	4.9	12
+COD_P_286549	Caneta Simples	Papelaria	1.9	9
+COD_P_300151	Envelope	Papelaria	1.5	10
+COD_P_167828	Fone de Ouvido com Fio	Acessórios	49.9	21
+COD_P_139552	Borracha	Papelaria	2.5	29
+COD_P_303835	Estilete	Papelaria	8.9	0
+COD_P_250879	Caneta Especial	Papelaria	9.9	13
+COD_P_315008	Tripé	Acessórios	47.9	0
+COD_P_142032	Calculadora Simples	Acessórios	35	6
+COD_P_228204	Cabo USB	Acessórios	17.9	3
+COD_P_188372	Marcador de Quadro	Papelaria	7.5	18
+COD_P_258402	Caneta Simples	Papelaria	2.9	18
+COD_P_154766	Mochila Executiva	Acessórios	249.9	5
+COD_P_295307	Pasta	Papelaria	4.5	26
+COD_P_148408	Tinta e Pincel	Papelaria	2.9	13
+COD_P_284340	Suporte de Celular	Acessórios	12.9	11
+COD_P_275982	HD Externo	Informática	359.9	1
+COD_P_128392	Apontador	Papelaria	3.5	15
+COD_P_188262	Caneta Simples	Papelaria	1.9	16
+COD_P_329857	Agenda	Papelaria	27.9	2
+COD_P_326002	Pasta	Papelaria	8.9	5
+COD_P_273819	Marca Texto	Papelaria	8.9	10
+COD_P_182923	Suporte de Celular	Acessórios	24.9	3
+COD_P_244292	Bloco de Anotações	Papelaria	1.9	5
+COD_P_320960	Papéis e Cartolina	Papelaria	1.3	13
+COD_P_316388	Notebook Premium	Informática	4999.9	0
+COD_P_173551	Carregador Portátil	Acessórios	128.9	3
+COD_P_242516	Impressora a Jato	Informática	609.9	5
+COD_B_000001	Brinde	Papelaria	0.01	62
+COD_P_196384	Caneta Simples	Papelaria	2.8	7
+COD_P_141165	Lápis	Papelaria	1.2	74
+COD_P_236215	Mouse Sem Fio	Informática	105.9	2
+COD_P_211795	Pen Drive	Informática	31.9	21
+COD_P_335107	Mochila Escolar	Acessórios	172	5
+COD_P_244216	Fone de Ouvido sem Fio	Acessórios	139.8	0
+COD_P_242484	Mochila Escolar	Acessórios	139.9	2
+COD_P_149158	Cola e Fita Adesiva	Papelaria	3.8	15
+COD_P_300396	Pasta	Papelaria	5.9	23
+COD_P_326906	Lápis	Papelaria	1.3	1
+COD_P_236018	Régua Rígida	Papelaria	12.9	4
+COD_P_255028	Tinta e Pincel	Papelaria	5.9	22
+COD_P_273671	Grampeador e Perfurador	Papelaria	19.9	6
+COD_P_232662	Régua Flexível	Papelaria	7.9	14
+COD_P_136800	Marca Texto	Papelaria	6.9	0
+COD_P_264867	Cola e Fita Adesiva	Papelaria	9.9	1
+COD_P_291073	Envelope	Papelaria	0.8	79
+COD_P_159342	Marca Texto	Papelaria	6.9	9
+COD_P_286111	Caderno 1 Matéria	Papelaria	7.9	2
+COD_P_162491	HD Externo	Informática	238.9	3
+COD_P_321185	Lápis	Papelaria	1.9	12
+COD_P_126057	Lápis	Papelaria	1.5	36
+COD_P_329891	Tinta e Pincel	Papelaria	5.9	20
+COD_P_251775	Envelope	Papelaria	0.9	24
+COD_P_271816	Caderno 10 Matérias	Papelaria	34.9	9
+COD_P_236100	Pasta	Papelaria	4.5	4
+COD_P_193050	Caneta Especial	Papelaria	99.9	6
+COD_P_210186	Grampeador e Perfurador	Papelaria	24.9	7
+COD_P_182486	Caneta Especial	Papelaria	9.9	1
+COD_P_340723	HD Externo	Informática	254.9	5
+COD_P_198015	Caneta Simples	Papelaria	1.5	14
+COD_P_146931	Notebook Premium	Informática	4800	1
+COD_P_201930	Webcam	Informática	89.9	26
+COD_P_339135	Monitor	Informática	699.9	7
+COD_P_198465	Agenda	Papelaria	40.9	9
+COD_P_194995	Calculadora Científica	Acessórios	70	4
+COD_P_159866	Régua Rígida	Papelaria	14.9	13
+COD_P_243744	Caneta Simples	Papelaria	1.9	41
+COD_B_000002	Brinde	Papelaria	0.01	49
+COD_P_233140	Cola e Fita Adesiva	Papelaria	4.5	12
+COD_P_166344	Apontador	Papelaria	4.9	19
+COD_P_135623	Cola e Fita Adesiva	Papelaria	13.9	7
+COD_P_240455	Mochila Escolar	Acessórios	129.9	7
+COD_P_242767	Mouse Óptico	Informática	52.9	5
+COD_P_236038	Caneta Simples	Papelaria	1.9	31
+COD_P_313271	Apontador	Papelaria	2.5	32
+COD_P_173986	Tripé	Acessórios	63	0
+COD_P_271192	Papéis e Cartolina	Papelaria	1.4	24
+COD_P_319270	Impressora a Laser	Informática	1399.9	2
+COD_P_307548	Caneta Especial	Papelaria	7.9	12
+COD_P_340202	Caneta Simples	Papelaria	1.9	5
+COD_P_256249	Suporte de Monitor	Acessórios	79.9	11
+COD_P_265361	Massa de Modelar	Papelaria	19.9	5
+COD_P_284620	Papéis e Cartolina	Papelaria	2.5	22
+COD_P_257968	Cola e Fita Adesiva	Papelaria	2.9	13
+COD_P_223485	Pen Drive	Informática	99.8	14
+COD_P_267095	Apontador	Papelaria	2.9	15
+COD_P_169082	Fone de Ouvido sem Fio	Acessórios	89.9	23
+COD_P_305842	Marca Texto	Papelaria	5.9	10
+COD_P_245134	Lápis de Cor e Giz	Papelaria	89.9	11
+COD_P_274051	Caderno 10 Matérias	Papelaria	17.8	16
+COD_P_321990	Caneta Especial	Papelaria	5.9	23
+COD_P_181540	Pen Drive	Informática	42.9	1
+COD_P_203609	Mouse Óptico	Informática	61.9	20
+COD_P_242563	Régua Flexível	Papelaria	5.9	3
+COD_P_155026	Mouse Sem Fio	Informática	79.9	15
+COD_P_177059	Caneta Simples	Papelaria	2.8	24
+COD_P_337773	Régua Flexível	Papelaria	3.9	28
+COD_P_221674	Caneta Simples	Papelaria	1.5	13
+COD_P_227323	Calculadora Científica	Acessórios	56.9	4
+COD_P_234524	Caneta Especial	Papelaria	6.9	11
+COD_P_281228	Lápis de Cor e Giz	Papelaria	12.9	21
+COD_P_213345	Caneta Especial	Papelaria	32.9	15
+COD_P_272123	Impressora a Laser	Informática	1560	2
+COD_P_125844	Tinta e Pincel	Papelaria	1.8	22
+COD_P_214485	Carregador Portátil	Acessórios	139.9	4
+COD_P_268843	Caderno 10 Matérias	Papelaria	21.9	4
+COD_P_298016	Caderno 1 Matéria	Papelaria	6.9	3
+COD_P_133653	Teclado Simples	Informática	129.9	27
+COD_P_126783	Tinta e Pincel	Papelaria	12.9	5
+COD_P_291876	Lápis de Cor e Giz	Papelaria	69.9	15
+COD_P_196518	Cabo USB	Acessórios	22.9	5
+COD_P_320547	Agenda	Papelaria	43.9	3
+COD_P_220059	Agenda	Papelaria	85.9	6
+COD_P_242442	Agenda	Papelaria	21	6
+COD_P_143270	Caderno 1 Matéria	Papelaria	10.8	3
+COD_P_128778	Marca Texto	Papelaria	7.8	5
+COD_P_329776	Pasta	Papelaria	3.9	10
+COD_P_321039	Régua Rígida	Papelaria	6.8	39
+COD_P_174842	Caderno 1 Matéria	Papelaria	3.7	22
+COD_P_279864	Caderno 1 Matéria	Papelaria	9.9	13
+COD_P_256772	Cabo USB	Acessórios	29	3
+COD_P_337164	Pasta	Papelaria	27.9	6
+COD_P_255913	Notebook Premium	Informática	5850	1
+COD_P_328358	Envelope	Papelaria	0.7	17
+COD_P_335300	Cabo USB	Acessórios	27.8	3
+COD_P_209561	Lápis de Cor e Giz	Papelaria	48.9	33
+COD_P_232078	Caneta Simples	Papelaria	2.5	20
+COD_P_296331	Mochila Escolar	Acessórios	130	9
+COD_P_276814	Impressora a Jato	Informática	599.9	8
+COD_P_256777	Fone de Ouvido com Fio	Acessórios	63.9	8
+COD_P_230978	Notebook	Informática	3199.9	2
+COD_P_339675	Webcam	Informática	119.9	4
+COD_P_129350	Marcador de Quadro	Papelaria	8.9	5
+COD_P_139512	Borracha	Papelaria	3.9	7
+COD_P_133046	Papéis e Cartolina	Papelaria	1.5	5
+COD_P_322196	Lápis de Cor e Giz	Papelaria	25.9	7
+COD_P_165967	Lápis de Cor e Giz	Papelaria	19.9	30
+COD_P_139472	Cartucho de Tinta	Informática	54.9	25
+COD_P_189966	Caderno 1 Matéria	Papelaria	16.9	20
+COD_P_170327	Pasta	Papelaria	7	4
+COD_P_164247	Caneta Especial	Papelaria	21.9	4
+COD_P_147740	Pasta	Papelaria	4.9	26
+COD_P_257021	Papéis e Cartolina	Papelaria	1.2	34
+COD_P_195101	Mochila Escolar	Acessórios	149.9	7
+COD_P_254586	Mouse Sem Fio	Informática	89.9	33
+COD_P_145148	Borracha	Papelaria	2.5	17
+COD_P_334215	Monitor	Informática	999.8	6
+COD_P_237408	Caderno 10 Matérias	Papelaria	21.9	12
+COD_P_306191	Caderno 10 Matérias	Papelaria	21.9	6
+COD_B_000004	Brinde	Papelaria	0.01	98
+COD_P_161520	Lápis	Papelaria	1.8	30
+COD_P_222924	Cartucho de Tinta	Informática	54.9	40
+COD_P_218163	Cartucho de Tinta	Informática	129.9	19
+COD_P_229933	Mouse Sem Fio	Informática	82.9	21
+COD_P_248054	Pasta	Papelaria	15.9	9
+COD_P_204751	Borracha	Papelaria	2.9	33
+COD_P_153079	Cola e Fita Adesiva	Papelaria	5.8	0
+COD_P_298708	Mochila Executiva	Acessórios	239.9	3
+COD_P_317033	Carregador Portátil	Acessórios	99.9	7
+COD_P_279132	Tablet	Informática	4399.9	4
+COD_P_293928	Papéis e Cartolina	Papelaria	3.5	12
+COD_P_237894	Bloco de Anotações	Papelaria	9.9	8
+COD_P_181938	Calculadora Simples	Acessórios	43.9	5
+COD_P_318311	Tinta e Pincel	Papelaria	8.9	0
+COD_P_235413	Tinta e Pincel	Papelaria	27.9	2
+COD_P_230700	Notebook	Informática	4299.9	1
+COD_P_258390	Fone de Ouvido com Fio	Acessórios	49.9	2
+COD_P_171592	Caderno 1 Matéria	Papelaria	9.9	15
+COD_P_179866	Fone de Ouvido com Fio	Acessórios	39.8	5
+COD_P_239935	Caderno 1 Matéria	Papelaria	2.9	9
+COD_P_329957	Mouse Óptico	Informática	44.9	22
