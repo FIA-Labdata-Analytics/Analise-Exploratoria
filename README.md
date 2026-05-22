@@ -472,8 +472,6 @@ database_questao3['PRECO_UNITARIO_FAIXAS'] = pd.cut(
 
 ## Avaliação dos Resultados
 
-Este projeto não envolve modelagem preditiva, portanto métricas como Accuracy, Precision, Recall ou ROC-AUC não se aplicam. A avaliação é feita pela **consistência analítica** e pela **relevância dos insights para o negócio**.
-
 | Critério | Avaliação |
 |---|---|
 | Completude | Todas as 8 questões respondidas com código e narrativa |
@@ -498,13 +496,6 @@ Este projeto não envolve modelagem preditiva, portanto métricas como Accuracy,
 | Outliers de preço | Limite IQR superior: R$ 217 | Toda Informática é "outlier" — segmentar |
 | Variabilidade por seção | Informática tem maior dispersão de preços | Portfólio heterogêneo = gestão complexa |
 | Perfis de produto | 37 itens (vol alto/preço baixo) + 36 itens (vol baixo/preço alto) | Estratégias de estoque opostas |
-
-### Limitações do Projeto
-
-- **Escopo temporal:** Apenas um mês de dados. Sazonalidade, tendências e comparações históricas não são possíveis.
-- **Ausência de custo:** Sem dados de custo de aquisição, não é possível calcular margem líquida — apenas receita bruta.
-- **Sem dados de cliente:** Não há informação sobre quem compra o quê, impossibilitando análise de cesta de compras ou segmentação de clientes.
-- **Faturamento bruto ≠ lucratividade:** Um produto caro pode ter margem zero se o custo de aquisição for alto.
 
 ---
 
@@ -532,38 +523,14 @@ Do ponto de vista acadêmico, o projeto exercita competências que são diretame
 
 ## Como Executar o Projeto
 
-### Pré-requisitos
-
-- Python 3.8 ou superior instalado
-- pip (gerenciador de pacotes do Python)
-
-### Opção 1 — Google Colab (recomendado para iniciantes)
+### Google Colab (recomendado para iniciantes)
 
 1. Acesse [colab.research.google.com](https://colab.research.google.com)
 2. Faça upload do arquivo `ESTUDO_DE_CASO_EDA_Respostas.ipynb`
 3. Faça upload do arquivo `Papelaria.txt` na sessão do Colab
 4. Execute todas as células em ordem (`Runtime > Run all`)
 
-### Opção 2 — Ambiente local
 
-```bash
-# 1. Clone ou baixe o repositório
-git clone https://github.com/seu-usuario/case-papelaria-eda.git
-cd case-papelaria-eda
-
-# 2. Crie e ative um ambiente virtual (recomendado)
-python -m venv venv
-source venv/bin/activate       # Linux/macOS
-venv\Scripts\activate          # Windows
-
-# 3. Instale as dependências
-pip install pandas numpy jupyter
-
-# 4. Inicie o Jupyter Notebook
-jupyter notebook
-
-# 5. Abra o arquivo de respostas e execute as células em ordem
-```
 
 ### Ordem de execução
 
@@ -597,58 +564,9 @@ Ao criar cópias explícitas antes de manipular os dados, o analista evita o pro
 
 ### Reprodutibilidade
 
-O notebook foi executado de forma linear, sem dependências ocultas entre células. Qualquer pessoa que executar o notebook do início ao fim obterá exatamente os mesmos resultados.
+Para visualizar os códigos completos , baixe o arquivo ESTUDO_DE_CASO_EDA_Respostas.ipynb 
 
----
-
-## Aprendizados Acadêmicos
-
-### Competências desenvolvidas
-
-**Hard Skills:**
-- Leitura de arquivos com `pd.read_table()` e parâmetros específicos de formato
-- Agregações com `groupby()` e `agg()` em múltiplos níveis
-- Criação de métricas derivadas com operações vetorizadas
-- Segmentação de dados com `pd.cut()` e `pd.qcut()`
-- Cálculo de faturamento acumulado com `cumsum()`
-- Detecção de outliers com o método IQR
-- Análise de Pareto aplicada ao varejo
-- Construção de tabelas de contingência com `pd.crosstab()`
-
-**Soft Skills:**
-- Tradução de perguntas de negócio em operações técnicas
-- Comunicação de resultados para audiências não-técnicas
-- Pensamento crítico na interpretação de padrões e anomalias
-- Gestão de escopo analítico: responder exatamente o que foi perguntado
-
-### Relação com o mercado real
-
-Empresas como Magazine Luiza, Americanas, Grupo Boticário e grandes redes de varejo realizam análises como essas diariamente, em escala muito maior. Os conceitos de Pareto, segmentação por perfil e análise de faturamento por categoria são usados em reuniões de S&OP (Sales and Operations Planning) toda semana.
-
-Um profissional que domina EDA está habilitado para atuar em posições como Analista de Dados, Business Intelligence Analyst, Revenue Analyst ou Customer Insights Analyst.
-
----
-
-## Próximos Passos
-
-Para quem quiser ir além deste case, as seguintes extensões naturais são recomendadas:
-
-**Enriquecimento do dataset:**
-- Incluir dados históricos de múltiplos meses para análise de tendência e sazonalidade
-- Incorporar dados de custo de aquisição para calcular margem real (não apenas faturamento bruto)
-
-**Modelagem preditiva:**
-- Construir um modelo de previsão de demanda (regressão ou séries temporais) para antecipar necessidades de estoque
-- Desenvolver um sistema de classificação de produtos por perfil de giro (ABC Curve)
-
-**Visualização e comunicação:**
-- Criar um dashboard interativo com Streamlit ou Power BI para que gestores não-técnicos acessem os insights
-- Automatizar a geração do relatório mensal com Python e agendamento via cron job
-
-**Engenharia e escala:**
-- Migrar a análise para uma base de dados (PostgreSQL, BigQuery) para suportar volumes maiores
-- Implementar um pipeline de dados com Apache Airflow para automação do fluxo analítico
-- Containerizar o projeto com Docker para garantir reprodutibilidade em qualquer ambiente
+O notebook completo foi executado de forma linear Qualquer pessoa que executar o notebook do início ao fim obterá exatamente os mesmos resultados.
 
 ---
 
