@@ -127,6 +127,22 @@ A EDA permite que padrões invisíveis no volume de dados se tornem evidentes. C
 
 > **Por que criar essa variável?** O negócio não se resume a quantidade vendida nem a preço isoladamente. O **faturamento bruto** integra os dois e mede o valor gerado por produto — sendo a métrica central para priorização de estoque, análise de Pareto e comparação entre seções.
 
+### Carregamento de Bibliotecas
+
+```python
+import pandas as pd
+import numpy as np
+```
+
+### Leitura da base de dados
+
+```python
+database = pd.read_table(filepath_or_buffer='Papelaria.txt',
+                                     sep='\t',
+                                     decimal='.',
+                                     header=0)
+```
+
 ### Qualidade dos Dados
 
 O primeiro passo de qualquer analista responsável é **auditar a base antes de analisá-la**. Aqui está o que foi verificado:
