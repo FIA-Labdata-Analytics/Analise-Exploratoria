@@ -1,13 +1,13 @@
-# 📊 Análise Exploratória de Dados — Case Papelaria
-### Material de Referência Oficial · Disciplina de Fundamentos de Data Science
+# 📊 Análise exploratória de dados — Case papelaria
+### Material de referência oficial · Disciplina de fundamentos de Data Science
 
 > **Documento elaborado pela Diretoria Acadêmica** com base no projeto de melhor desempenho da turma. Este README serve como guia de estudo, referência de boas práticas e modelo de documentação profissional para projetos de portfólio e GitHub.
 
 ---
 
-## Visão Geral do Projeto
+## Visão geral do projeto
 
-### O Problema de Negócio
+### O problema de negócio
 
 Uma rede varejista do segmento de papelaria acumula dados transacionais do último mês de operação e precisa transformá-los em inteligência de negócio. A área de Analytics foi acionada para responder questões estratégicas que orientarão três frentes decisórias distintas:
 
@@ -21,51 +21,40 @@ No varejo, a ausência de análise de dados resulta em dois tipos clássicos de 
 
 Um projeto de EDA bem executado é, muitas vezes, o primeiro passo antes de qualquer modelo preditivo. Ele fornece o entendimento profundo dos dados que sustenta decisões confiáveis — seja manualmente por gestores, seja automaticamente por algoritmos.
 
-### Cenário Simulado
+### Cenário simulado
 
 O projeto simula o dia a dia de um analista de dados júnior/pleno que recebe uma base bruta de vendas e precisa entregá-la como um relatório analítico responsivo às perguntas do negócio. Não há modelos de Machine Learning aqui — o foco total está na exploração rigorosa, na construção de raciocínio analítico e na comunicação clara dos achados.
 
 ---
 
-## Objetivos do Projeto
+## Objetivos do projeto
 
-### Objetivos Principais
+### Objetivos principais
 
 - Realizar uma Análise Exploratória de Dados (EDA) completa sobre vendas mensais de uma papelaria
 - Responder 8 questões de negócio específicas utilizando técnicas adequadas de análise e visualização
 - Comunicar os resultados com clareza, combinando código, tabelas e conclusões narrativas
 
-### Objetivos Secundários
+### Objetivos secundários
 
 - Praticar agregações, filtros e transformações com `pandas`
 - Criar métricas derivadas (como faturamento bruto) a partir de variáveis existentes
 - Identificar padrões, outliers e segmentações relevantes no portfólio de produtos
 - Desenvolver raciocínio analítico orientado a negócio
-
-### Resultados Esperados
-
-| Entregável | Descrição |
-|---|---|
-| Notebook compilado | Código Python executado, com saídas visíveis |
-| 8 análises respondidas | Cada questão com código + conclusão narrativa |
-| Feature derivada | Coluna `FATURAMENTO_BRUTO` calculada e utilizada nas análises |
-| Segmentações por faixas | Variáveis categorizadas para análise cruzada |
-| Análise de Pareto | Identificação dos produtos responsáveis por 80% do faturamento |
-
 ---
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```
 📁 case-papelaria-eda/
 │
 ├── 📄 Papelaria.txt                         # Base de dados original (formato TSV)
-├── 📓 ESTUDO_DE_CASO_EDA.ipynb              # Notebook com enunciado das questões
+├── 📓 ESTUDO_DE-CASO_EDA.ipynb              # Notebook com enunciado das questões
 ├── 📓 ESTUDO_DE_CASO_EDA_Respostas.ipynb    # Notebook com respostas (melhor nota)
 └── 📄 README.md                             # Este documento
 ```
 
-### Arquivos e suas Funções
+### Arquivos e suas funções
 
 **`Papelaria.txt`** — Fonte primária de dados. Arquivo delimitado por tabulação (`\t`) com cabeçalho na primeira linha e separador decimal (`.`). Contém 290 registros de produtos únicos.
 
@@ -75,19 +64,19 @@ O projeto simula o dia a dia de um analista de dados júnior/pleno que recebe um
 
 ---
 
-## Entendimento do Problema de Negócio
+## Entendimento do problema de negócio
 
-### A Perspectiva Empresarial
+### A perspectiva empresarial
 
 Para um varejista, cada produto no estoque representa um investimento de capital. A questão central não é apenas "o que vendemos?", mas sim "onde está o valor gerado?", "quais produtos devemos abandonar?" e "onde há oportunidade de precificação?"
 
 A área de Analytics atua, nesse contexto, como uma ponte entre os dados operacionais (transações) e as decisões estratégicas (compras, mix, precificação). Sem essa análise, os gestores operam no escuro, reagindo a problemas depois que eles ocorrem.
 
-### Como a Ciência de Dados ajuda
+### Como a ciência de dados ajuda
 
 A EDA permite que padrões invisíveis no volume de dados se tornem evidentes. Com 290 produtos distribuídos em 3 seções e dezenas de categorias, uma análise manual seria inviável e imprecisa. Python e `pandas` tornam possível responder perguntas em segundos que levariam horas em planilhas.
 
-### Riscos e Impactos Potenciais
+### Riscos e impactos potenciais
 
 | Risco sem análise | Impacto financeiro estimado |
 |---|---|
@@ -97,9 +86,9 @@ A EDA permite que padrões invisíveis no volume de dados se tornem evidentes. C
 
 ---
 
-## Entendimento dos Dados
+## Entendimento dos dados
 
-### Fonte dos Dados
+### Fonte dos dados
 
 | Atributo | Valor |
 |---|---|
@@ -109,7 +98,7 @@ A EDA permite que padrões invisíveis no volume de dados se tornem evidentes. C
 | Período | Último mês de operação |
 | Qualidade | Sem valores ausentes · Sem duplicatas |
 
-### Dicionário de Variáveis
+### Dicionário de variáveis
 
 | Variável | Tipo | Descrição |
 |---|---|---|
@@ -127,7 +116,7 @@ A EDA permite que padrões invisíveis no volume de dados se tornem evidentes. C
 
 > **Por que criar essa variável?** O negócio não se resume a quantidade vendida nem a preço isoladamente. O **faturamento bruto** integra os dois e mede o valor gerado por produto — sendo a métrica central para priorização de estoque, análise de Pareto e comparação entre seções.
 
-### Carregamento de Bibliotecas
+### Carregamento de bibliotecas
 
 ```python
 import pandas as pd
@@ -143,7 +132,7 @@ database = pd.read_table(filepath_or_buffer='Papelaria.txt',
                                      header=0)
 ```
 
-### Qualidade dos Dados
+### Qualidade dos dados
 
 O primeiro passo de qualquer analista responsável é **auditar a base antes de analisá-la**. Aqui está o que foi verificado:
 
@@ -159,7 +148,7 @@ database.isna().sum()  # Resultado: 0 em todas as colunas
 
 ---
 
-## Análise Exploratória de Dados (EDA)
+## Análise exploratória de dados (EDA)
 
 A EDA foi estruturada em 8 questões de negócio, cada uma respondida com a técnica mais adequada. A seguir, descrevemos o raciocínio por trás de cada decisão analítica.
 
@@ -267,7 +256,7 @@ database_questao3['QTD_UNIDADES_VENDIDAS_MES_FAIXAS'] = pd.cut(
 
 ---
 
-### Questão 4 — Análise de Pareto: 80% do faturamento
+### Questão 4 — Análise de pareto: 80% do faturamento
 
 **Pergunta:** Considerando os produtos com maior faturamento bruto, quantos deles foram responsáveis por 80% do faturamento total?
 
@@ -343,7 +332,7 @@ database_questao5_agrup = database_questao5.groupby(
 
 ### Questão 6 — Detecção de outliers
 
-**Pergunta:** Existem produtos com valores atípicos de quantidade vendida, preço unitário ou faturamento bruto?
+**Pergunta:** Existem produtos com valores atípicos de preço unitário ?
 
 **Por que analisar isso?** Outliers podem representar erros de cadastro, produtos excepcionais ou fenômenos de mercado. Identificá-los é essencial antes de qualquer análise estatística ou decisão baseada em médias.
 
@@ -447,7 +436,7 @@ baixo_preco = database_questao8['PRECO_UNITARIO'].quantile(0.25)  # < R$ 4,93
 
 ---
 
-## Pré-processamento dos Dados
+## Pré-processamento dos dados
 
 Neste projeto, o pré-processamento foi **minimalista e intencional** — o que, na prática, é um sinal positivo de qualidade dos dados originais.
 
@@ -457,7 +446,7 @@ Neste projeto, o pré-processamento foi **minimalista e intencional** — o que,
 
 **Valores ausentes:** `database.isna().sum()` → 0 nulos em todas as colunas. Resultado: sem necessidade de imputação ou remoção de registros.
 
-### Feature Engineering: criação do `FATURAMENTO_BRUTO`
+### Feature engineering: criação do `FATURAMENTO_BRUTO`
 
 A principal decisão de engenharia de atributos foi a criação da métrica `FATURAMENTO_BRUTO` como produto de `PRECO_UNITARIO` e `QTD_UNIDADES_VENDIDAS_MES`:
 
@@ -486,7 +475,7 @@ database_questao3['PRECO_UNITARIO_FAIXAS'] = pd.cut(
 
 ---
 
-## Avaliação dos Resultados
+## Avaliação dos resultados
 
 | Critério | Avaliação |
 |---|---|
@@ -498,9 +487,9 @@ database_questao3['PRECO_UNITARIO_FAIXAS'] = pd.cut(
 
 ---
 
-## Resultados do Projeto
+## Resultados do projeto
 
-### Síntese dos Principais Achados
+### Síntese dos principais achados
 
 | Análise | Resultado-chave | Implicação de negócio |
 |---|---|---|
@@ -525,19 +514,19 @@ Do ponto de vista acadêmico, o projeto exercita competências que são diretame
 
 ---
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 | Tecnologia | Versão | Finalidade |
 |---|---|---|
-| Python | 3.13.1 | Linguagem principal |
-| pandas | Última estável | Manipulação e análise de dados |
-| numpy | Última estável | Operações matemáticas e estatísticas |
-| Google Colab | — | Ambiente de desenvolvimento e execução |
-| Jupyter Notebook | — | Formato de entrega do projeto |
+| Python | Linguagem principal |
+| pandas  | Manipulação e análise de dados |
+| numpy  | Operações matemáticas e estatísticas |
+| Google Colab | Ambiente de desenvolvimento e execução |
+| Jupyter Notebook | Formato de entrega do projeto |
 
 ---
 
-## Como Executar o Projeto
+## Como executar o projeto
 
 ### Google Colab (recomendado para iniciantes)
 
@@ -577,6 +566,8 @@ database_questao2 = database.copy()
 ```
 
 Ao criar cópias explícitas antes de manipular os dados, o analista evita o problema clássico do `SettingWithCopyWarning` do pandas e garante que a base original permaneça intacta para as análises subsequentes.
+##### Observação:
+Com a adoção do Copy-on-Write (CoW) como comportamento padrão no pandas 3.0, o uso de .copy() tornou-se desnecessário em diversos casos onde era utilizado apenas para evitar efeitos colaterais durante a manipulação dos dados.
 
 ### Reprodutibilidade
 
