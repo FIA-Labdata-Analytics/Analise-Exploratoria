@@ -49,7 +49,7 @@ O projeto simula o dia a dia de um analista de dados júnior/pleno que recebe um
 📁 case-papelaria-eda/
 │
 ├── 📄 Papelaria.txt                         # Base de dados original (formato TSV)
-├── 📓 ESTUDO_DE-CASO_EDA.ipynb              # Notebook com enunciado das questões
+├── 📓 ESTUDO DE CASO-EDA.ipynb              # Notebook com enunciado das questões
 ├── 📓 ESTUDO_DE_CASO_EDA_Respostas.ipynb    # Notebook com respostas (melhor nota)
 └── 📄 README.md                             # Este documento
 ```
@@ -516,7 +516,7 @@ Do ponto de vista acadêmico, o projeto exercita competências que são diretame
 
 ## Tecnologias utilizadas
 
-| Tecnologia | Versão | Finalidade |
+| Tecnologia | Finalidade |
 |---|---|---|
 | Python | Linguagem principal |
 | pandas  | Manipulação e análise de dados |
