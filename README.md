@@ -242,15 +242,15 @@ database_questao3['QTD_UNIDADES_VENDIDAS_MES_FAIXAS'] = pd.cut(
 
 **Resultados — Tabela de contingência (todos os produtos):**
 
-| Qtd Vendida ↓ / Preço → | Muito Barato | Barato | Preço Médio | Caro |
+| Qtd Vendida ↓ / Preço → | Q1 (≤25%) | Q2 (25–50%) | Q3 (50–75%) | Q4 (>75%) |
 |---|---|---|---|---|
-| Nenhum | 0 | 6 | 5 | 6 |
-| Baixa | 7 | 24 | 26 | 53 |
-| Média | 11 | 17 | 27 | 21 |
-| Alta | 32 | 35 | 19 | 16 |
-| Muito Alta | 51 | 19 | 22 | 4 |
+| Nenhum | 0% | 6% | 5% | 6% |
+| Baixa | 7% | 24% | 26% | 53% |
+| Média | 11% | 17% | 27% | 21% |
+| Alta | 32% | 35% | 19% | 16% |
+| Muito Alta | 51% | 19% | 22% | 4% |
 
-**Insight:** A tabela confirma a relação inversa entre preço e volume: produtos "Muito Baratos" concentram 51 casos na faixa "Muito Alta" de vendas, enquanto produtos "Caros" só têm 4 casos nessa faixa. A relação, contudo, **muda por seção** — na Informática, o comportamento é mais extremo (poucos produtos, preço muito alto, volume muito baixo), enquanto na Papelaria o padrão se inverte completamente.
+**Insight:** A tabela confirma a relação inversa entre preço e volume: entre os produtos do quartil mais barato (Q1), 51% têm vendas "Muito Altas", enquanto entre os produtos do quartil mais caro (Q4) apenas 4% atingem essa faixa. A relação, contudo, **muda por seção**, na Informática, o comportamento é mais extremo (poucos produtos, preço muito alto, volume muito baixo), enquanto na Papelaria o padrão se inverte completamente.
 
 > **Lição analítica:** Quando a pergunta inclui "isso muda a depender de X?", sempre segmente a análise por X antes de concluir. Uma relação global pode mascarar comportamentos completamente opostos em subgrupos.
 
